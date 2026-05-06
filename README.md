@@ -6,3 +6,6 @@ This project builds a data processing pipeline for DESI data, focusing on lung c
 
 #### Dataset
 We work with imzML files from multiple tissue samples:
+- Cancer samples
+    
+- Healthy samples
