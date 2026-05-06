@@ -1,0 +1,23 @@
+#!/bin/bash
+#PBS -l walltime=13:00:00
+#PBS -l select=1:ncpus=128:mem=500gb
+#PBS -j oe
+
+set -euo pipefail
+
+echo "Job $PBS_JOBID started at $(date)"
+
+# ---- activate environment ----
+source ~/miniforge3/etc/profile.d/conda.sh
+conda activate npcproject
+
+which python
+python --version
+
+# ---- navigate to folder with spaces ----
+cd "/rds/general/project/npc-informatics/live/DESI raw data exploration"
+
+# ---- run conversion ----
+python imzML_toH5_reducedResolution.py
+
+echo "Job $PBS_JOBID finished at $(date)"
