@@ -7,10 +7,10 @@ This project builds a data processing pipeline for DESI data, focusing on lung c
 #### Dataset
 We work with imzML files from multiple tissue samples:
 - Cancer samples
--     LC24
--     LC08
--     LC22
+  * LC24
+  * LC08
+  * LC22
 - Healthy samples
--     HT10
--     HT06
--     HT13
+  * HT10
+  * HT06
+  * HT13
