@@ -114,6 +114,9 @@ def align_imzml_to_common_grid(parser, common_mz):
             print(f"Aligned {i}/{n_pixels}")
 
     return aligned
-
-
 ````
+
+All processed data is saved into a single file (Efficient storage (HDF5)):
+```
+aligned_lung_roi_data.h5
+```
