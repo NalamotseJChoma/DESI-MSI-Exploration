@@ -17,3 +17,12 @@ We work with imzML files from multiple tissue samples:
 Each file contains:
 - Pixel coordinates
 - Mass spectra (m/z vs intensity)
+
+A python function, ImzMLParser from pyimzml package.
+```python
+from pyimzml.ImzMLParser import ImzMLParser
+parser = ImzMLParser(path)
+```
+Each parser in this case provides:
+- Coordinates - spatial layout
+- getspectrum(i) - spectrum at pixel i
