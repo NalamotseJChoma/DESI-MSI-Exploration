@@ -18,7 +18,7 @@ Each file contains:
 - Pixel coordinates
 - Mass spectra (m/z vs intensity)
 
-A python function, ImzMLParser from pyimzml package.
+A python function, ImzMLParser from pyimzml package was used to read and process the data.
 ```python
 from pyimzml.ImzMLParser import ImzMLParser
 parser = ImzMLParser(path)
