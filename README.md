@@ -14,3 +14,6 @@ We work with imzML files from multiple tissue samples:
   * HT10
   * HT06
   * HT13
+Each file contains:
+- Pixel coordinates
+- Mass spectra (m/z vs intensity)
