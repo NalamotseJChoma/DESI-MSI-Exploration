@@ -121,3 +121,9 @@ All processed data is saved into a single file (Efficient storage (HDF5)):
 aligned_lung_roi_data.h5
 ```
 The codes used to achieve this step can be found [here](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/tree/main/Data%20Preprocessing%20codes/imzML%20to%20hdf5%20codes): 
+
+
+![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT06_pixel_3088.png) 
+![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT06_pixel_3088.html)
+
+[Interactive Plot](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT06_pixel_3088.html)
