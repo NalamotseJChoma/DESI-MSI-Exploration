@@ -124,6 +124,33 @@ The codes used to achieve this step can be found [here](https://github.com/Nalam
 
 
 ![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT06_pixel_3088.png) 
-![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT06_pixel_3088.html)
 
 [Interactive Plot](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT06_pixel_3088.html)
+
+
+![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT10_pixel_11268.png) 
+
+[Interactive Plot](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT10_pixel_11268.html)
+
+
+
+![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT13_pixel_2457.png) 
+
+[Interactive Plot](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT13_pixel_2457.html)
+
+
+![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/LC08_pixel_1334.png) 
+
+[Interactive Plot](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/LC08_pixel_1334.html)
+
+
+![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/LC22_pixel_6207.png) 
+
+[Interactive Plot](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/LC22_pixel_6207.html)
+
+
+![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/LC24_pixel_9091.png) 
+
+[Interactive Plot](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/LC24_pixel_9091.html)
+
+
