@@ -122,35 +122,23 @@ aligned_lung_roi_data.h5
 The preprocessing scripts used for this step can be found [here](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/tree/main/Data%20Preprocessing%20codes/imzML%20to%20hdf5%20codes): 
 
 
-![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT06_pixel_3088.png) 
 
-[Interactive Plot](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT06_pixel_3088.html)
+## HT06 Pixel 403 — Original vs Aligned Spectrum
 
+Click the image below to open the interactive Plotly figure.
 
-![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT10_pixel_11268.png) 
+[![HT06 Pixel 403](Plots/Aligned_vs_original_plots/HT06_pixel_403.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/HT06_pixel_403.html)
 
-[Interactive Plot](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT10_pixel_11268.html)
+[![HT10 Pixel 13447](Plots/Aligned_vs_original_plots/HT10_pixel_13447.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/HT10_pixel_13447.html)
 
-
-
-![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT13_pixel_2457.png) 
-
-[Interactive Plot](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT13_pixel_2457.html)
+[![HT13 Pixel 5839](Plots/Aligned_vs_original_plots/HT13_pixel_5839.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/HT13_pixel_5839.html)
 
 
-![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/LC08_pixel_1334.png) 
+[![LC08 Pixel 590](Plots/Aligned_vs_original_plots/LC08_pixel_590.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/LC08_pixel_590.html)
 
-[Interactive Plot](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/LC08_pixel_1334.html)
+[![LC22 Pixel 7906](Plots/Aligned_vs_original_plots/LC22_pixel_7906.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/LC22_pixel_7906.html)
 
-
-![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/LC22_pixel_6207.png) 
-
-[Interactive Plot](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/LC22_pixel_6207.html)
-
-
-![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/LC24_pixel_9091.png) 
-
-[Interactive Plot](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/LC24_pixel_9091.html)
+[![LC24 Pixel 14862](Plots/Aligned_vs_original_plots/LC24_pixel_14862.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/LC24_pixel_14862.html)
 
 
 #### Binned Data
