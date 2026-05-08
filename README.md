@@ -1,8 +1,7 @@
 # DESI-MSI-Exploration  
-#### DESI Mass Spectrometry Imaging Pipeline
-
+#### DESI Mass Spectrometry Imaging (DESI-MSI) Processing Pipeline
 #### Overview
-This project builds a data processing pipeline for DESI data, focusing on lung cancer vs healthy tissue
+This project develops a data processing pipeline for DESI data, focusing on lung cancer vs healthy tissue samples. 
 
 #### Dataset
 We work with imzML files from multiple tissue samples:
@@ -18,16 +17,18 @@ Each file contains:
 - Pixel coordinates
 - Mass spectra (m/z vs intensity)
 
-A python function, ImzMLParser from pyimzml package was used to read and process the data.
+The `ImzMLParser` function from the `pyimzML` package was used to read and process the data.
 ```python
 from pyimzml.ImzMLParser import ImzMLParser
 parser = ImzMLParser(path)
 ```
-Each parser in this case provides:
-- Coordinates - spatial layout
-- getspectrum(i) - spectrum at pixel i
 
+  Each parser provides:
+- `coordinates` — spatial pixel layout
+- `getspectrum(i)` — mass spectrum at pixel `i`
 ```
+
+
 LC24
  pixels: 29346
  mz bins: 170955
@@ -53,8 +54,7 @@ HT13
  mz bins: 135372
 ------------------------------
 ```
-
-Given that the data contains different number of mz bins and pixels. Aligning it directly becomes a problem. It is for that reason that we then created a common grid, by looking at common ranges where all the samples overlap, interpolating this using a median peak spacing of 0.005:
+Since the samples contain different numbers of m/z bins and pixels, direct comparison and alignment become challenging. To address this, a common m/z grid was created using the overlapping m/z range shared across all samples. A median peak spacing of 0.005 was selected for interpolation:
 
 ```
 LC24 median spacing: 0.004015173434979147
@@ -87,7 +87,7 @@ def get_common_mz(parsers, step=0.005):
     return common_mz
 
 ```
-This returns a list of common mz. Which we then use to interpolate the intensities using the function below. This function returns aligned data:
+This returns a common m/z axis shared across all samples. The common m/z axis is then used to interpolate intensity values for each spectrum onto the shared grid. The function below returns the aligned data:
 
 ```python
 def align_imzml_to_common_grid(parser, common_mz):
@@ -115,12 +115,11 @@ def align_imzml_to_common_grid(parser, common_mz):
 
     return aligned
 ````
-
-All processed data is saved into a single file (Efficient storage (HDF5)):
+The aligned data contains approximately 180,000 m/z bins before feature reduction. All processed data is stored in a single HDF5 file for efficient storage and retrieval:
 ```
 aligned_lung_roi_data.h5
 ```
-The codes used to achieve this step can be found [here](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/tree/main/Data%20Preprocessing%20codes/imzML%20to%20hdf5%20codes): 
+The preprocessing scripts used for this step can be found [here](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/tree/main/Data%20Preprocessing%20codes/imzML%20to%20hdf5%20codes): 
 
 
 ![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/HT06_pixel_3088.png) 
@@ -154,3 +153,11 @@ The codes used to achieve this step can be found [here](https://github.com/Nalam
 [Interactive Plot](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Aligned%20vs%20Original%20plot/LC24_pixel_9091.html)
 
 
+#### Binned Data
+To reduce dimensionality and computational cost, the aligned spectra were further binned. Based on the relationship between feature count and bin width shown below, a bin size of 0.005 was selected, reducing the feature space to approximately 18,000 bins.
+![Alt text](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Feature%20count%20vs%20bin%20width.png)
+
+
+###### Binned vs Original plots
+
+###### Correlation 
