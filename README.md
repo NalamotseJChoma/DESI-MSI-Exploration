@@ -127,18 +127,18 @@ The preprocessing scripts used for this step can be found [here](https://github.
 
 Click the image below to open the interactive Plotly figure.
 
-[![HT06 Pixel 403](Plots/Aligned_vs_original_plots/HT06_pixel_403.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/HT06_pixel_403.html)
+[![HT06 Pixel 403](Plots/Aligned_vs_original_plots/HT06_pixel_403_.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/HT06_pixel_403.html)
 
-[![HT10 Pixel 13447](Plots/Aligned_vs_original_plots/HT10_pixel_13447.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/HT10_pixel_13447.html)
+[![HT10 Pixel 13447](Plots/Aligned_vs_original_plots/HT10_pixel_13447_.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/HT10_pixel_13447.html)
 
-[![HT13 Pixel 5839](Plots/Aligned_vs_original_plots/HT13_pixel_5839.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/HT13_pixel_5839.html)
+[![HT13 Pixel 5839](Plots/Aligned_vs_original_plots/HT13_pixel_5839_.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/HT13_pixel_5839.html)
 
 
-[![LC08 Pixel 590](Plots/Aligned_vs_original_plots/LC08_pixel_590.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/LC08_pixel_590.html)
+[![LC08 Pixel 590](Plots/Aligned_vs_original_plots/LC08_pixel_590_.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/LC08_pixel_590.html)
 
-[![LC22 Pixel 7906](Plots/Aligned_vs_original_plots/LC22_pixel_7906.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/LC22_pixel_7906.html)
+[![LC22 Pixel 7906](Plots/Aligned_vs_original_plots/LC22_pixel_7906_.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/LC22_pixel_7906.html)
 
-[![LC24 Pixel 14862](Plots/Aligned_vs_original_plots/LC24_pixel_14862.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/LC24_pixel_14862.html)
+[![LC24 Pixel 14862](Plots/Aligned_vs_original_plots/LC24_pixel_14862_.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/LC24_pixel_14862.html)
 
 
 #### Binned Data
