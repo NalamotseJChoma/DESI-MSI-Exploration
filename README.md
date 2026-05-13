@@ -144,7 +144,7 @@ Click the image below to open the interactive Plotly figure.
 #### Binned Data
 To reduce dimensionality and computational cost, the aligned spectra were further binned. Based on the relationship between feature count and bin width shown below, a bin size of 0.005 was selected, reducing the feature space to approximately 18,000 bins.
 
-[![LC24 Pixel 14862](Plots/Feature%20count%20vs%20bin%20width.png)](https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/feature_count_vs_bin_width.html)
+[![LC24 Pixel 14862](Plots/Feature%20count%20vs%20bin%20width.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/feature_count_vs_bin_width.html)
 
 ###### Binned vs Original plots
 ###### Correlation 
