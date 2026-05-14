@@ -140,11 +140,14 @@ Click the image below to open the interactive Plotly figure.
 
 [![LC24 Pixel 14862](Plots/Aligned_vs_original_plots/LC24_pixel_14862_.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/LC24_pixel_14862.html)
 
+[![Mean Spectra healthy tissue](Plots/mean_aligned_spectra_healthy.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/mean_aligned_spectra_healthy.html)
+
+[![Mean spectra cancer tissue](Plots/mean_aligned_spectra_cancer.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/mean_aligned_spectra_cancer.html)
 
 #### Binned Data
 To reduce dimensionality and computational cost, the aligned spectra were further binned. Based on the relationship between feature count and bin width shown below, a bin size of 0.005 was selected, reducing the feature space to approximately 18,000 bins.
 
-[![LC24 Pixel 14862](Plots/Feature%20count%20vs%20bin%20width.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/feature_count_vs_bin_width.html)
+[![Feature count vs bin](Plots/Feature%20count%20vs%20bin%20width.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/feature_count_vs_bin_width.html)
 
 ###### Binned vs Original plots
 ###### Correlation 
