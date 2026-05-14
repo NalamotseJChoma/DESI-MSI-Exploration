@@ -144,6 +144,30 @@ Click the image below to open the interactive Plotly figure.
 
 [![Mean spectra cancer tissue](Plots/mean_aligned_spectra_cancer.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/mean_aligned_spectra_cancer.html)
 
+## PCA
+
+[![Mean spectra cancer tissue](Plots/PCA_full_data.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/PCA_full_data.html)
+
+[![Mean spectra cancer tissue](Plots/PCA_loadings.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/PCA_loadings.html)
+
+[![Mean spectra cancer tissue](Plots/PC1_loadings.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/PC1_loadings.html)
+
+[![Mean spectra cancer tissue](Plots/PC2_loadings.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/PC2_loadings.html)
+
+
+```
+Top 20 m/z bins contributing to PC1: [747.52255154 747.51755154 747.52755154 773.52755154 775.54755154
+ 773.53255154 775.55255154 747.53255154 773.54755154 773.53755154
+ 773.54255154 775.55755154 773.52255154 773.55255154 747.51255154
+ 775.54255154 775.56255154 747.53755154 774.53755154 774.54255154]
+
+Top 20 m/z bins contributing to PC2: [861.55255154 861.55755154 863.56755154 863.57255154 861.56255154
+ 861.54755154 863.57755154 861.56755154 885.55255154 863.56255154
+ 863.58255154 885.54755154 885.55755154 861.57255154 835.53755154
+ 835.53255154 863.58755154 885.54255154 885.56255154 885.53755154]
+```
+
+
 #### Binned Data
 To reduce dimensionality and computational cost, the aligned spectra were further binned. Based on the relationship between feature count and bin width shown below, a bin size of 0.005 was selected, reducing the feature space to approximately 18,000 bins.
 
