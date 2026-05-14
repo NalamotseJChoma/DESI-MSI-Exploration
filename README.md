@@ -173,6 +173,35 @@ To reduce dimensionality and computational cost, the aligned spectra were furthe
 
 [![Feature count vs bin](Plots/Feature%20count%20vs%20bin%20width.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/feature_count_vs_bin_width.html)
 
+```
+
+
+LC24
+ pixels: 29346
+ mz bins: 17999
+------------------------------
+LC08
+ pixels: 9576
+ mz bins: 17999
+------------------------------
+LC22
+ pixels: 17271
+ mz bins: 17999
+------------------------------
+HT10
+ pixels: 15251
+ mz bins: 17999
+------------------------------
+HT06
+ pixels: 8181
+ mz bins: 17999
+------------------------------
+HT13
+ pixels: 8181
+ mz bins: 17999
+------------------------------
+```
+
 ###### Binned vs Original plots
 ###### Correlation 
 For this section we selected top 50 variable ions for each sample and computed some correlation for each. (find the biology in this and the reason or motivation for carrying out this part). Why look at the top 50 individual samples separately. Look at the degree of variability. Healthy tissue has less variability. The top 50 in the cancer tissue varries from the that in healthy tissue. Degree of variability......
