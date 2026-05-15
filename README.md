@@ -151,7 +151,6 @@ Click the image below to open the interactive Plotly figure.
 [![Mean spectra cancer tissue](Plots/PCA_loadings.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/PCA_loadings.html)
 
 
-[![Mean spectra cancer tissue](Plots/PC2_loadings.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/PC2_loadings.html)
 
 ```
 Top 20 m/z bins contributing to PC1: [747.52255154 747.51755154 747.52755154 773.52755154 775.54755154
