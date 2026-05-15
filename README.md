@@ -221,5 +221,32 @@ Top 20 m/z bins contributing to PC2: [885.54255154 861.54255154 863.59255154 835
 For this section we selected top 50 variable ions for each sample and computed some correlation for each. (find the biology in this and the reason or motivation for carrying out this part). Why look at the top 50 individual samples separately. Look at the degree of variability. Healthy tissue has less variability. The top 50 in the cancer tissue varries from the that in healthy tissue. Degree of variability......
 
 Select top 50 from the cancer cells to and see if there is an overlap. Is it the same 50? Get a Venn diagram or ion map of this. This tells how similar are the cancer tissues..... Compare intesity in the cancer and healthy tissue, for individual ions across samples. Put the correlation plots in the same place for easy comparison. If the top 50 are different in the cancer cells, it means there is no homogeneity among the cancer samples, in what's varrying the most. Plot the distribution for the ion for lung and healthy, using one color for each and do some statistical test to see if there is a difference in the distribtution in the cancer and the control. 
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_cancer_LC08.png">
+        <img src="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_cancer_LC08.png?raw=true" width="300"/>
+      </a>
+      <br>
+      LC08
+    </td>
+
+    <td align="center">
+      <a href="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_cancer_LC22.png">
+        <img src="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_cancer_LC22.png?raw=true" width="300"/>
+      </a>
+      <br>
+      LC22
+    </td>
+
+    <td align="center">
+      <a href="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_cancer_LC24.png">
+        <img src="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_cancer_LC24.png?raw=true" width="300"/>
+      </a>
+      <br>
+      LC24
+    </td>
+  </tr>
+</table>
 
 Compare the similarity in correlation matrix using some ML. 
