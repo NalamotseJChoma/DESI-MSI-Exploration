@@ -221,6 +221,7 @@ Top 20 m/z bins contributing to PC2: [885.54255154 861.54255154 863.59255154 835
 For this section we selected top 50 variable ions for each sample and computed some correlation for each. (find the biology in this and the reason or motivation for carrying out this part). Why look at the top 50 individual samples separately. Look at the degree of variability. Healthy tissue has less variability. The top 50 in the cancer tissue varries from the that in healthy tissue. Degree of variability......
 
 Select top 50 from the cancer cells to and see if there is an overlap. Is it the same 50? Get a Venn diagram or ion map of this. This tells how similar are the cancer tissues..... Compare intesity in the cancer and healthy tissue, for individual ions across samples. Put the correlation plots in the same place for easy comparison. If the top 50 are different in the cancer cells, it means there is no homogeneity among the cancer samples, in what's varrying the most. Plot the distribution for the ion for lung and healthy, using one color for each and do some statistical test to see if there is a difference in the distribtution in the cancer and the control. 
+##### Cancer Tissue correlation and ion maps
 <table>
   <tr>
     <td align="center">
@@ -248,4 +249,52 @@ Select top 50 from the cancer cells to and see if there is an overlap. Is it the
     </td>
   </tr>
 </table>
+
+[![HT13 Pixel 5839](Plots/Correlation_and_ion_maps/ion_network_cancer_LC08.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Correlation_and_ion_maps/ion_network_cancer_LC08.html)
+
+[![HT13 Pixel 5839](Plots/Correlation_and_ion_maps/ion_network_cancer_LC22.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Correlation_and_ion_maps/ion_network_cancer_LC22.html)
+
+[![HT13 Pixel 5839](Plots/Correlation_and_ion_maps/ion_network_cancer_LC24.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Correlation_and_ion_maps/ion_network_cancer_LC24.html)
+
+
+
+#### Healthy tissue correlations and ions maps
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_healthy_HT06.png">
+        <img src="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_healthy_HT06.png?raw=true" width="300"/>
+      </a>
+      <br>
+      HT06
+    </td>
+
+  <td align="center">
+      <a href="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_healthy_HT10.png">
+        <img src="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_healthy_HT10.png?raw=true" width="300"/>
+      </a>
+      <br>
+      HT10
+    </td>
+
+  <td align="center">
+      <a href="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_healthy_HT13.png">
+        <img src="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_healthy_HT13.png?raw=true" width="300"/>
+      </a>
+      <br>
+      HT13
+    </td>
+  </tr>
+</table>
+
+[![HT13 Pixel 5839](Plots/Correlation_and_ion_maps/ion_network_healthy_HT06.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Correlation_and_ion_maps/ion_network_healthy_HT06.html)
+
+[![HT13 Pixel 5839](Plots/Correlation_and_ion_maps/ion_network_healthy_HT10.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Correlation_and_ion_maps/ion_network_healthy_HT10.html)
+
+[![HT13 Pixel 5839](Plots/Correlation_and_ion_maps/ion_network_healthy_HT13.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Correlation_and_ion_maps/ion_network_healthy_HT13.html)
+
+
+
+
 Compare the similarity in correlation matrix using some ML. 
