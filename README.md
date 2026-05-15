@@ -231,7 +231,7 @@ Select top 50 from the cancer cells to and see if there is an overlap. Is it the
       LC08
     </td>
 
-    <td align="center">
+  <td align="center">
       <a href="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_cancer_LC22.png">
         <img src="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_cancer_LC22.png?raw=true" width="300"/>
       </a>
@@ -239,7 +239,7 @@ Select top 50 from the cancer cells to and see if there is an overlap. Is it the
       LC22
     </td>
 
-    <td align="center">
+  <td align="center">
       <a href="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_cancer_LC24.png">
         <img src="https://github.com/NalamotseJChoma/DESI-MSI-Exploration/blob/main/Plots/Correlation_and_ion_maps/ion_spatial_colocalization_cancer_LC24.png?raw=true" width="300"/>
       </a>
@@ -248,5 +248,4 @@ Select top 50 from the cancer cells to and see if there is an overlap. Is it the
     </td>
   </tr>
 </table>
-
 Compare the similarity in correlation matrix using some ML. 
