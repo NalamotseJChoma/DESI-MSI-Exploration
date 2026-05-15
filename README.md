@@ -204,9 +204,11 @@ HT13
  mz bins: 17999
 ------------------------------
 ```
-[![HT13 Pixel 5839](Plots/binned_PCA_full_data.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/binned_PCA_full_data.html)
 
-[![HT13 Pixel 5839](Plots/binned_PCA_loadings.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/binned_PCA_loadings.html)
+
+[![Mean spectra cancer tissue](Plots/binned_PCA_full_data.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/binned_PCA_full_data.html)
+[![Mean spectra cancer tissue](Plots/binned_PCA_loadings.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/binned_PCA_loadings.html)
+
 
 ```
 Top 20 m/z bins contributing to PC1: [773.54255154 775.54255154 747.54255154 774.54255154 747.49255154
@@ -215,6 +217,10 @@ Top 20 m/z bins contributing to PC1: [773.54255154 775.54255154 747.54255154 774
  773.49255154 722.49255154 775.59255154 863.59255154 771.54255154]
 
 ```
+
+
+
+
 ```
 Top 20 m/z bins contributing to PC2: [885.54255154 861.54255154 863.59255154 835.54255154 886.54255154
  885.59255154 863.54255154 861.59255154 836.54255154 887.54255154
@@ -222,10 +228,16 @@ Top 20 m/z bins contributing to PC2: [885.54255154 861.54255154 863.59255154 835
  747.54255154 887.59255154 283.24255154 886.59255154 819.49255154]
 ```
 ###### Binned vs Original plots
-###### Correlation 
-For this section we selected top 50 variable ions for each sample and computed some correlation for each. (find the biology in this and the reason or motivation for carrying out this part). Why look at the top 50 individual samples separately. Look at the degree of variability. Healthy tissue has less variability. The top 50 in the cancer tissue varries from the that in healthy tissue. Degree of variability......
+###### Selection of Highly Variable Ions and Cross-Sample Comparison 
 
-Select top 50 from the cancer cells to and see if there is an overlap. Is it the same 50? Get a Venn diagram or ion map of this. This tells how similar are the cancer tissues..... Compare intesity in the cancer and healthy tissue, for individual ions across samples. Put the correlation plots in the same place for easy comparison. If the top 50 are different in the cancer cells, it means there is no homogeneity among the cancer samples, in what's varrying the most. Plot the distribution for the ion for lung and healthy, using one color for each and do some statistical test to see if there is a difference in the distribtution in the cancer and the control. 
+The top 50 most variable ions were selected from lung cancer sample (LC24). Variability was measured across pixels within the sample. The same top 50 ions were then extracted from other cancer samples
+Healthy tissue samples. This allowed direct comparison of how stable or unstable these ions are across different biological conditions. This helps assess whether the same ions behave consistently across tissues
+and the degree of shared metabolic structure between samples. Ion maps were generated for ions with correlation > 0.6. These maps help visualise whether correlated ions show similar spatial localisation patterns across tissue sections. 
+
+
+
+
+
 ##### Cancer Tissue correlation and ion maps
 <table>
   <tr>
@@ -302,4 +314,3 @@ Select top 50 from the cancer cells to and see if there is an overlap. Is it the
 
 
 
-Compare the similarity in correlation matrix using some ML. 
