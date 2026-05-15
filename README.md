@@ -150,10 +150,8 @@ Click the image below to open the interactive Plotly figure.
 
 [![Mean spectra cancer tissue](Plots/PCA_loadings.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/PCA_loadings.html)
 
-[![Mean spectra cancer tissue](Plots/PC1_loadings.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/PC1_loadings.html)
 
 [![Mean spectra cancer tissue](Plots/PC2_loadings.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/PC2_loadings.html)
-
 
 ```
 Top 20 m/z bins contributing to PC1: [747.52255154 747.51755154 747.52755154 773.52755154 775.54755154
@@ -166,6 +164,8 @@ Top 20 m/z bins contributing to PC2: [861.55255154 861.55755154 863.56755154 863
  863.58255154 885.54755154 885.55755154 861.57255154 835.53755154
  835.53255154 863.58755154 885.54255154 885.56255154 885.53755154]
 ```
+
+
 
 
 #### Binned Data
@@ -200,6 +200,20 @@ HT13
  pixels: 8181
  mz bins: 17999
 ------------------------------
+```
+[![HT13 Pixel 5839](Plots/binned_PCA_full_data.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/binned_PCA_full_data.html)
+
+[![HT13 Pixel 5839](Plots/binned_PCA_loadings.png)](https://nalamotsejchoma.github.io/DESI-MSI-Exploration/Plots/Aligned_vs_original_plots/binned_PCA_loadings.html)
+
+```
+Top 20 m/z bins contributing to PC1: [773.54255154 775.54255154 747.54255154 774.54255154 747.49255154
+ 748.54255154 776.54255154 749.54255154 721.49255154 748.49255154
+ 283.24255154 750.54255154 861.54255154 863.54255154 745.49255154
+ 773.49255154 722.49255154 775.59255154 863.59255154 771.54255154]
+Top 20 m/z bins contributing to PC2: [885.54255154 861.54255154 863.59255154 835.54255154 886.54255154
+ 885.59255154 863.54255154 861.59255154 836.54255154 887.54255154
+ 747.49255154 862.54255154 859.54255154 835.49255154 888.59255154
+ 747.54255154 887.59255154 283.24255154 886.59255154 819.49255154]
 ```
 
 ###### Binned vs Original plots
